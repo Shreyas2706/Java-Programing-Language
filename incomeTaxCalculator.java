@@ -17,3 +17,7 @@ else {
 System.out.println("your tax is :"+ tax);
     }
 }
+
+/// code run 
+
+// written with new stle 
