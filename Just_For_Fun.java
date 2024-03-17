@@ -1,13 +1,16 @@
+import java.util.* ;
 public class Just_For_Fun {
-    public static void main(String[] args) {
-        int n = 23597 ;
-        int count = 1 ;
-        while (n>0) {
-            int lastdigit = n%10 ;
-            System.out.print(lastdigit);
-            n /=10 ;
-count ++ ;
-     }
-     System.out.println( ); 
-    }
+public static int calculate(int num1,int num2) {
+    int sum = num1+num2 ;
+    return sum ;
+
 }
+public static void main (String args[]) {
+    Scanner sc = new Scanner (System.in) ;
+    int a = sc.nextInt() ;
+    int b = sc.nextInt() ;
+    int sum = calculate(a,b) ;
+    System.out.println("The sum of number is = " +sum );
+}
+ }
+
