@@ -1,19 +1,27 @@
 import java.util.* ;
  public class Just_For_Fun {
-public static int factorial(int a ) {
-    int f = 1 ;
-    for(int i = 1 ; i<=a ; i++) {
-         f = f*i ;
+    public static void main (String args []) {
+Scanner sc = new Scanner (System.in) ;
+int a = sc.nextInt() ;
+boolean isprime = true ;
+for (int i = 2 ; i<=a-1 ; i++) {
+    if (a%i==0) {
+        isprime = false ;
     }
-    return f ;
-}   
-public static void main (String args []) {
-    System.out.println(factorial(4));
 }
+if (isprime = true) {
+    System.out.println("not prime");
 
 }
+else{
+    System.out.println("Prime");
+}
+    
 
 
+}
+
+ }
 
  
 
